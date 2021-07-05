@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/*lead logo*/
+.lead__logo {
+    display: block;
+    margin: 0 auto;
+}
+/*logo at the nav bar*/
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+/*nav bar shit*/
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 2px 2px 5px #afafaf;
+}
+.f a:hover {
+    color: #00ccb1;
+}
+.liis {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+.f {
+   margin-right: 20px;
+   margin-top: 15px;
+}
+.f a {
+    text-decoration: none;
+}
+/*main title under the nav bar*/
+.main-title {
+    text-align: center;
+    color: #00ccb1;
+}
+/*the p's*/
+.p {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 100px;
+}
+/*boxes shit*/
+.main-boxes {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    width: 100%;
+    height: 250px;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.fi {
+    padding: 2%;
+    width: 25%;
+    border: 5px solid #00ccb1;
+    border-radius: 8px;
+    background-color: #00ccb1;
+}
+.sec {
+    width: 25%;
+    padding: 2%;
+    border: 5px solid rgb(35, 131, 211);
+    border-radius: 8px;
+    background-color: rgb(35, 131, 211);
+}
+.third {
+    width: 25%;
+    padding: 2%;
+    border: 5px solid #1b2734;
+    border-radius: 8px;
+    background-color: #1b2734;
+}
+/*under the boxes*/
+.mid {
+    width: 33%;
+    font-size: 30px;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+/*hard grid shit*/
+.title-grid {
+    color: #00b39b;
+    font-size: 2.125rem;
+}
+p {
+    margin: 1.6em 0;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.middle {
+    border: 2px solid #dcf9fb;
+    background-color: #dcf9fb;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+    height: 380px;
+}
+.head {
+    padding-left: 2em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 50%;
+}
+.first-grid {
+    border: 7px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.sec-grid {
+    border: 7px solid #ffffff;
+    background-color: #ffffff;
+    width: 220px;
+    border-radius: 7px;
+}
+.third-grid {
+    border: 7px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.four-grid {
+    border: 7px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+/*under the middle*/
+.in-header {
+    color: #00b39b;
+    display: flex;
+    justify-content: center;
+}
+.intoo-header {
+    display: flex;
+    justify-content: center;
+}
+/*imgs shit*/
+.office_desc {
+    background: #fff;
+    border: 1px solid #00000008;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.offic_desc .btn-small {
+    float: right;
+}
+.btn-small {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    float: right;
+}
+.all-of-the-shit {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.imgs:hover {
+    box-shadow: 2px 2px 10px #afafaf;
+}
+.btn-small:hover {
+    background-color: #2b6abd;
+}
+.sounds {
+    font-size: 2.14em;
+    color: #333;
+    margin-bottom: .75em;
+    display: flex;
+    justify-content: center;
+}
+.btn2 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    text-align: center;
+    width: 250px;
+}
+.btn2:hover {
+    background-color: #2b6abd;
+}
+.under-shit {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    text-align: center;
+}
